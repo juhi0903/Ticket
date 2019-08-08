@@ -1,0 +1,33 @@
+{
+  "rules": {
+    "no-underscore-dangle": 0,
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "next"
+      }
+    ],
+    "no-use-before-define": [
+      "error",
+      {
+        "variables": false
+      }
+    ],
+    "no-multi-str": 0,
+    "indent": ["warn", 2],
+    "arrow-parens": "off",
+    "comma-dangle": "off",
+    "linebreak-style": 0,
+    "object-curly-newline": "off",
+    "function-paren-newline": "off",
+    "max-len": "off"
+  },
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 8
+  },
+  "extends": ["airbnb-base"]
+}

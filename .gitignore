@@ -1,0 +1,33 @@
+package-lock.json
+
+# Environment variables
+.env.dev
+.env.prod
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+
+# mssql-scripts
+
+
+# logo-uploads
+eic-uploads
+
+# Optional npm cache directory
+.npm
+
+# sessions
+sessions
+
+# zsh Files
+.zshrc
+
+# vscode Files
+.vscode
+.DS_Store
